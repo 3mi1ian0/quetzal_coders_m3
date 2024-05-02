@@ -131,7 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/emimendoza/quetzal_coders_m3/build/gtest/cmake_install.cmake")
-  include("/home/emimendoza/quetzal_coders_m3/build/modulo_3/cmake_install.cmake")
+  include("/home/emimendoza/quetzal_coders_m3/build/QuetzalCoders_autonomousNavigation_puzzleBot/cmake_install.cmake")
 
 endif()
 

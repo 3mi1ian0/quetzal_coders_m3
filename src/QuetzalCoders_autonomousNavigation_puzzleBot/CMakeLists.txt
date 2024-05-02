@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(modulo_3)
+project(QuetzalCoders_autonomousNavigation_puzzleBot)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -104,7 +104,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES modulo_3
+#  LIBRARIES QuetzalCoders_autonomousNavigation_puzzleBot
 #  CATKIN_DEPENDS roscpp rospy std_msgs
 #  DEPENDS system_lib
 )
@@ -122,7 +122,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/modulo_3.cpp
+#   src/${PROJECT_NAME}/QuetzalCoders_autonomousNavigation_puzzleBot.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -133,7 +133,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/modulo_3_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/QuetzalCoders_autonomousNavigation_puzzleBot_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -197,7 +197,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_modulo_3.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_QuetzalCoders_autonomousNavigation_puzzleBot.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

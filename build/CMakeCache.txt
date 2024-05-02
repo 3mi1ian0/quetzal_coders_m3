@@ -367,6 +367,12 @@ Project_BINARY_DIR:STATIC=/home/emimendoza/quetzal_coders_m3/build
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/emimendoza/quetzal_coders_m3/src
 
+//Value Computed by CMake
+QuetzalCoders_autonomousNavigation_puzzleBot_BINARY_DIR:STATIC=/home/emimendoza/quetzal_coders_m3/build/QuetzalCoders_autonomousNavigation_puzzleBot
+
+//Value Computed by CMake
+QuetzalCoders_autonomousNavigation_puzzleBot_SOURCE_DIR:STATIC=/home/emimendoza/quetzal_coders_m3/src/QuetzalCoders_autonomousNavigation_puzzleBot
+
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
